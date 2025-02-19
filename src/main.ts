@@ -5,7 +5,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   
   app.enableCors({ 
-    origin: "http://localhost:3000", // Change this to match your frontend's port
+    origin: "https://kimballllly.github.io/Student-management/", // Change this to match your frontend's port
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: "Content-Type, Authorization"
   });
