@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css"; // Import the CSS file
 
-const API_URL = "https://student-management-ef6i.onrender.com"; // Adjust to your backend URL
+const API_URL = "https://student-management-ef6i.onrender.com/students"; // Adjust to your backend URL
 
 const App = () => {
   const [students, setStudents] = useState([]);
