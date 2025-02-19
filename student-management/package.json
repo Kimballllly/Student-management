@@ -1,7 +1,7 @@
 {
   "name": "student-management",
   "version": "0.1.0",
-  "homepage": "https://Kimballllly.github.io/student-management",
+  "homepage": "https://Kimballllly.github.io/Student-management",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
